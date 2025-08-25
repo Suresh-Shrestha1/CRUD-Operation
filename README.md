@@ -66,3 +66,41 @@ CREATE TABLE user (
 ```
 
 ---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- 🐘 **PHP** (v7 or later)
+- 🛢️ **MySQL/MariaDB**
+- 🖥️ **Web server** (Apache, Nginx, or use XAMPP/LAMP/WAMP stack)
+
+### Installation
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/yourusername/crud-php-mysql.git
+   ```
+
+2. **Set up the database:**
+   - Create a MySQL database named `mydb`
+   - Run `createTable.php` to generate the user table
+
+3. **Update database credentials:**
+   Edit `db.php` to match your MySQL credentials:
+   ```php
+   <?php
+    $conn = mysqli_connect("localhost", "root", "", "mydb");
+    if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+    }
+    ?>
+   ```
+
+4. **Run the app:**
+   Open `index.php` in your browser:
+   ```
+   http://localhost/crud-php/index.php
+   ```
+
+---
