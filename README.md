@@ -32,3 +32,37 @@ A basic **CRUD (Create, Read, Update, Delete)** web application built using **PH
 | HTML & CSS | Frontend design     |
 
 ---
+
+
+## 🗂️ File Structure
+
+```
+/crud-php/
+│
+├── index.php          # Displays all users and actions
+├── create.php         # Form to add a new user
+├── edit.php           # Form to edit user details
+├── delete.php         # Deletes a user
+├── createTable.php    # Creates the user table
+├── db.php             # Database connection settings
+├── style.css          # Application styling
+├── screenshot         # Screenshot foder
+└── README.md          # Project documentation
+```
+
+---
+
+## 🧱 Database Schema
+
+Here's the SQL used in `createTable.php`:
+
+```sql
+CREATE TABLE user (
+  id INT(11) AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  password VARCHAR(255) NOT NULL
+);
+```
+
+---
