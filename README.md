@@ -2,7 +2,6 @@
 
 ![PHP](https://img.shields.io/badge/PHP-7%2B-blue?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-5%2B-orange?logo=mysql)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-blue)
 
@@ -136,5 +135,75 @@ This project can be adapted for:
 - 📝 **Student Record System**
 - 🏫 **School/College Registration System**
 - 💾 **Backend prototype for small web applications**
+
+---
+
+## 📸 Screenshots
+
+- Create Operation
+    - Before submission
+
+    Figure 1: Form filled with Name, Email, and Password
+    ![Before Submission](screenshot/create.jpg)
+
+    - After Submission
+
+    Figure 2: Table showing the new user added
+    ![After Subission](screenshot/table.jpg)
+
+- Read Operation
+
+Figure 3: Table displaying all users fetched from the database
+![Read](screenshot/read.jpg)
+
+- Updaye Operation
+    - Before update
+
+    Figure 4: Edit form with current user details pre-filled
+    ![Before Updatee](screenshot/update.jpg)
+
+    - After Update
+
+    Figure 5: Table showing updated user details
+    ![After Update](screenshot/update_table.jpg)
+
+- Delete Operation
+    - Before Delete
+
+    Figure 6: Table showing user before deletion
+    ![Before Delete](screenshot/delete.jpg)
+
+    - After Submission
+
+    Figure 7: Table showing the user removed from the database
+    ![After Delete](screenshot/after_delete.jpg)
+
+
+---
+
+## ⚠️ Security Notes
+
+**This project is intended for educational use only.**
+
+| Issue | Recommendation |
+|-------|----------------|
+| 🔓 Plain Text Passwords | Use `password_hash()` and `password_verify()` |
+| ⚠️ No SQL Protection | Use prepared statements |
+| 🛡️ No Validation | Add server/client-side validation |
+
+---
+
+## 🔄 Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | 2025-08-25 | Initial release with full CRUD and responsive UI |
+
+---
+
+## 🧑‍💻 Author
+
+**Suresh Shrestha**  
+GitHub: [Suresh Shrestha](https://github.com/Suresh-Shrestha1)  
 
 ---
