@@ -144,38 +144,45 @@ This project can be adapted for:
     - Before submission
 
     Figure 1: Form filled with Name, Email, and Password
+  
     ![Before Submission](screenshot/create.jpg)
 
     - After Submission
 
     Figure 2: Table showing the new user added
+  
     ![After Subission](screenshot/table.jpg)
 
 - Read Operation
 
 Figure 3: Table displaying all users fetched from the database
+
 ![Read](screenshot/read.jpg)
 
 - Updaye Operation
     - Before update
 
     Figure 4: Edit form with current user details pre-filled
+  
     ![Before Updatee](screenshot/update.jpg)
 
     - After Update
 
     Figure 5: Table showing updated user details
+  
     ![After Update](screenshot/update_table.jpg)
 
 - Delete Operation
     - Before Delete
 
     Figure 6: Table showing user before deletion
+  
     ![Before Delete](screenshot/delete.jpg)
 
     - After Submission
 
     Figure 7: Table showing the user removed from the database
+  
     ![After Delete](screenshot/after_delete.jpg)
 
 
